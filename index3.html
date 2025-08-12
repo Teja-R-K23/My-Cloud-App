@@ -1,15 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My Cloud Load Balanced App - Home</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9fafb;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+    nav a {
+      display: inline-block;
+      background-color: #007acc;
+      color: white;
+      text-decoration: none;
+      padding: 12px 25px;
+      margin-right: 15px;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #005a99;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 10px;
+      color: #777;
+      border-top: 1px solid #ddd;
+      margin-top: 60px;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to my Cloud Load Balanced App</h1>
-  <p>This is the main landing page.</p>
-  <nav>
-    <a href="app1.html">App 1</a> | 
-    <a href="app2.html">App 2</a> | 
-    <a href="app3.html">App 3</a>
-  </nav>
+  <header>
+    <h1>My Cloud Load Balanced App</h1>
+  </header>
+  <main>
+    <p>Welcome to the main landing page. Select an app below to explore:</p>
+    <nav>
+      <a href="app1.html">App 1</a>
+      <a href="app2.html">App 2</a>
+      <a href="app3.html">App 3</a>
+    </nav>
+  </main>
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
 </body>
 </html>
